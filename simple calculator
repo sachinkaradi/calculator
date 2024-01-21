@@ -1,0 +1,19 @@
+print("simple calculator")
+print("select the operator")
+print("1.addition\n")
+print("2.substraction\n")
+print("3.multiplication\n")
+print("4.divison\n")
+operation=int(input("enter the choice"))
+num1=float(input("enter the number >> "))
+num2 = float(input("enter the number >> "))
+if operation==1:
+     print(num1+num2)
+elif operation==2:
+     print(num1 - num2)
+elif operation==3:
+     print(num1 * num2)
+elif operation==4:
+     print(num1/num2)
+else:
+    print("ivalid choice")
